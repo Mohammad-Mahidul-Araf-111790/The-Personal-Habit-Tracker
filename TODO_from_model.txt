@@ -1,0 +1,9 @@
+Based on the data model defined in `src/model/Model.sql`, the following pages and features are supported by the database schema but are not yet fully implemented in the user interface:
+
+- **Suggestions Page:** The `suggestions` and `rules` tables are designed to provide users with tips and motivational messages based on their activity. A dedicated page is needed to display these suggestions to the user.
+
+- **Data Management Page:** The `data_export_log` table indicates functionality for exporting and importing user data. A user-facing page is required to allow users to export their data and view their history of exports and imports.
+
+- **Detailed Habit History Page:** The `checkins` table stores the history of each habit. A page to visualize the detailed history of a single habit, including a calendar view of check-ins, would provide valuable insights to the user.
+
+- **Admin/Rules Management Page:** The `rules` table is currently pre-populated with sample data. For a full implementation, an administrative interface would be needed to manage these rules.
